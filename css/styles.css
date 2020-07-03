@@ -122,15 +122,16 @@ input[type=checkbox]:checked~div.nav-container {
   color: #BADA55;
 }
 
-/*section {
+section {
   display: grid;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   align-content: center;
   justify-items: center;
   height: 100vh;
 }
-section > h1, section h4 {
+
+/*section > h1, section h4 {
   margin: 0.5rem 1rem;
 }
 section > h1 {
