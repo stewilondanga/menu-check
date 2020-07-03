@@ -93,13 +93,14 @@ input[type=checkbox]:checked~div.nav-container {
   padding: 1rem;
 }
 
-/*.nav-menu {
+.nav-menu {
   list-style: none;
   font-size: 1.25rem;
   text-transform: uppercase;
   padding: 0 1rem;
 }
-.nav-menu > li {
+
+/*.nav-menu > li {
   border-bottom: 2px solid white;
   margin-bottom: 1.5rem;
   padding-bottom: 1rem;
