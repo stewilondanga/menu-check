@@ -54,11 +54,12 @@ label {
   background: rgba(0, 0, 0, 0.6);
 }
 
-/*label:before {
+label:before {
   font-weight: bold;
   content: 'Menu';
 }
-label:after {
+
+/*label:after {
   font-size: 1.3rem;
   font-family: monospace;
   margin-left: 0.5rem;
