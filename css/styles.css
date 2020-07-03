@@ -67,10 +67,11 @@ label:after {
   content: '☲';
 }
 
-/*input[type=checkbox] {
+input[type=checkbox] {
   display: none;
 }
-input[type=checkbox]:checked + label:before {
+
+/*input[type=checkbox]:checked + label:before {
   content: 'Close';
 }
 input[type=checkbox]:checked + label:after {
