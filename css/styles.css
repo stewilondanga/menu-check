@@ -118,11 +118,11 @@ input[type=checkbox]:checked~div.nav-container {
   color: white;
 }
 
-/*.nav-menu > li > a:hover {
+.nav-menu>li>a:hover {
   color: #BADA55;
 }
 
-section {
+/*section {
   display: grid;
   -webkit-box-pack: center;
           justify-content: center;
