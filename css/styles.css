@@ -37,14 +37,14 @@ body {
   position: relative;
 }
 
-/*nav {
+nav {
   text-align: right;
   padding: 1rem;
   position: absolute;
   right: 2rem;
 }
 
-label {
+/*label {
   display: inline-block;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
