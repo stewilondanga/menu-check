@@ -75,10 +75,11 @@ input[type=checkbox]:checked+label:before {
   content: 'Close';
 }
 
-/*input[type=checkbox]:checked + label:after {
+input[type=checkbox]:checked+label:after {
   content: '⛝';
 }
-input[type=checkbox]:checked ~ div.nav-container {
+
+/*input[type=checkbox]:checked ~ div.nav-container {
   display: grid;
 }
 
