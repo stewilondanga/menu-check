@@ -44,7 +44,7 @@ nav {
   right: 2rem;
 }
 
-/*label {
+label {
   display: inline-block;
   text-transform: uppercase;
   padding: 0.5rem 1rem;
@@ -53,7 +53,8 @@ nav {
   border-radius: 2px;
   background: rgba(0, 0, 0, 0.6);
 }
-label:before {
+
+/*label:before {
   font-weight: bold;
   content: 'Menu';
 }
