@@ -112,12 +112,13 @@ input[type=checkbox]:checked~div.nav-container {
   padding-bottom: 0;
 }
 
-/*.nav-menu > li > a {
+.nav-menu>li>a {
   text-decoration: none;
   padding-bottom: 1rem;
   color: white;
 }
-.nav-menu > li > a:hover {
+
+/*.nav-menu > li > a:hover {
   color: #BADA55;
 }
 
