@@ -106,12 +106,13 @@ input[type=checkbox]:checked~div.nav-container {
   padding-bottom: 1rem;
 }
 
-/*.nav-menu > li:last-child {
+.nav-menu>li:last-child {
   border-bottom: none;
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.nav-menu > li > a {
+
+/*.nav-menu > li > a {
   text-decoration: none;
   padding-bottom: 1rem;
   color: white;
