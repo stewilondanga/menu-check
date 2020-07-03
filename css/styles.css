@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,123 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+@charset "UTF-8";
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: white;
+  background-color: #4d4d4d;
+  background-image: url("https://images.unsplash.com/photo-1489520324166-4292094d662e?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7b2cb438667734a1161c56dcacabddec");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  text-shadow: 0 1px 2px black;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 64em;
+  margin: 0 auto;
+  padding: 0 1rem;
+  position: relative;
+}
+
+nav {
+  text-align: right;
+  padding: 1rem;
+  position: absolute;
+  right: 2rem;
+}
+
+label {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.6);
+}
+label:before {
+  font-weight: bold;
+  content: 'Menu';
+}
+label:after {
+  font-size: 1.3rem;
+  font-family: monospace;
+  margin-left: 0.5rem;
+  color: #BADA55;
+  content: '☲';
+}
+
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox]:checked + label:before {
+  content: 'Close';
+}
+input[type=checkbox]:checked + label:after {
+  content: '⛝';
+}
+input[type=checkbox]:checked ~ div.nav-container {
+  display: grid;
+}
+
+.nav-container {
+  display: none;
+  margin: 1rem 0;
+  border: 2px solid white;
+  border-radius: 2px;
+  background: rgba(0, 0, 0, 0.95);
+  text-align: center;
+  padding: 1rem;
+}
+
+.nav-menu {
+  list-style: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: 0 1rem;
+}
+.nav-menu > li {
+  border-bottom: 2px solid white;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+}
+.nav-menu > li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.nav-menu > li > a {
+  text-decoration: none;
+  padding-bottom: 1rem;
+  color: white;
+}
+.nav-menu > li > a:hover {
+  color: #BADA55;
+}
+
+section {
+  display: grid;
+  -webkit-box-pack: center;
+          justify-content: center;
+  align-content: center;
+  justify-items: center;
+  height: 100vh;
+}
+section > h1, section h4 {
+  margin: 0.5rem 1rem;
+}
+section > h1 {
+  font-size: 3rem;
+}
+section > h4 {
+  font-size: 1.25rem;
 }
 
 .containers {
