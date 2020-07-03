@@ -83,7 +83,7 @@ input[type=checkbox]:checked~div.nav-container {
   display: grid;
 }
 
-/*.nav-container {
+.nav-container {
   display: none;
   margin: 1rem 0;
   border: 2px solid white;
@@ -93,7 +93,7 @@ input[type=checkbox]:checked~div.nav-container {
   padding: 1rem;
 }
 
-.nav-menu {
+/*.nav-menu {
   list-style: none;
   font-size: 1.25rem;
   text-transform: uppercase;
