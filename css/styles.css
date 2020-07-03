@@ -79,11 +79,11 @@ input[type=checkbox]:checked+label:after {
   content: '⛝';
 }
 
-/*input[type=checkbox]:checked ~ div.nav-container {
+input[type=checkbox]:checked~div.nav-container {
   display: grid;
 }
 
-.nav-container {
+/*.nav-container {
   display: none;
   margin: 1rem 0;
   border: 2px solid white;
